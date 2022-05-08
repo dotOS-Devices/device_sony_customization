@@ -491,12 +491,6 @@
   },
   {
     "remote":       "github",
-    "repository":   "sonyxperiadev/vendor-qcom-opensource-audio-hal-st-hal",
-    "target_path":  "vendor/qcom/opensource/audio-hal/st-hal",
-    "branch":     "aosp/LA.UM.9.14.r1"
-  },
-  {
-    "remote":       "github",
     "repository":   "sonyxperiadev/vendor-qcom-opensource-audio-hal-primary-hal",
     "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
     "branch":     "aosp/LA.UM.9.14.r1"
