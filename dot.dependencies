@@ -455,12 +455,6 @@
   },
   {
     "remote":       "github",
-    "repository":   "sonyxperiadev/vendor-qcom-opensource-telephony",
-    "target_path":  "vendor/qcom/opensource/telephony",
-    "branch":     "aosp/LA.UM.9.14.r1"
-  },
-  {
-    "remote":       "github",
     "repository":   "sonyxperiadev/vendor-qcom-opensource-location",
     "target_path":  "vendor/qcom/opensource/location",
     "branch":     "aosp/LA.UM.9.14.r1"
