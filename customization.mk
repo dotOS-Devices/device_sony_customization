@@ -16,7 +16,11 @@
 
 TARGET_GAPPS_ARCH := arm64
 
-TARGET_KERNEL_HEADERS := kernel/sony/msm-4.14/kernel
+ifneq ($(filter sagami, $(SOMC_PLATFORM)),)
+TARGET_KERNEL_HEADERS := kernel/sony/msm-5.4/kernel
+else
+TARGET_KERNEL_HEADERS := kernel/sony/msm-4.19/kernel
+endif
 
 CUST_PATH := device/sony/customization
 
@@ -158,14 +162,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.recovery.ui.blank_unblank_on_init=true
 endif
 
-# Update recovery with the ota for legacy
-ifneq ($(filter loire tone yoshino, $(SOMC_PLATFORM)),)
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.recovery_update=true
-else
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.recovery_update=false
-endif
 
 # VoLTE
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -185,5 +183,5 @@ $(call inherit-product-if-exists, vendor/widevine/widevine.mk)
 # Updatable Apex
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
--include $(CUST_PATH)/pe_cust.mk
+-include $(CUST_PATH)/dot_cust.mk
 -include vendor/dot/config/common.mk
