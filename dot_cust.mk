@@ -1,6 +1,6 @@
 # Copyright (C) 2019 AngeloGioacchino Del Regno <kholk11@gmail.com>
 #
-# PixelExperience specific customization for Sony Open Devices
+# DotOS specific customization for Sony Open Devices
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
