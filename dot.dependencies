@@ -1,7 +1,7 @@
 [
   {
     "remote":       "github",
-    "repository":   "sonyxperiadev/device-sony-common-headers",
+    "repository":   "sonyxperiadev/kernel-sony-msm-4.19-headers",
     "target_path":  "kernel/sony/msm-4.19/common-headers",
     "branch":     "aosp/LA.UM.9.12.r1"
   },
@@ -27,6 +27,12 @@
     "remote":       "github",
     "repository":   "sonyxperiadev/kernel-techpack-data-kernel",
     "target_path":  "kernel/sony/msm-4.19/kernel/techpack/data-kernel",
+    "branch":     "aosp/LA.UM.9.12.r1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/kernel-techpack-video",
+    "target_path":  "kernel/sony/msm-4.19/kernel/techpack/video",
     "branch":     "aosp/LA.UM.9.12.r1"
   },
   {
@@ -58,6 +64,78 @@
     "repository":   "sonyxperiadev/vendor-qcom-opensource-wlan-qcacld-3.0",
     "target_path":  "kernel/sony/msm-4.19/kernel/drivers/staging/wlan-qc/qcacld-3.0",
     "branch":     "aosp/LA.UM.9.12.r1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/kernel-sony-msm-5.4-headers",
+    "target_path":  "kernel/sony/msm-5.4/common-headers",
+    "branch":     "aosp/LA.UM.9.14.r1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/kernel",
+    "target_path":  "kernel/sony/msm-5.4/kernel",
+    "branch":     "aosp/LA.UM.9.12.r1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/kernel-techpack-audio",
+    "target_path":  "kernel/sony/msm-5.4/kernel/techpack/audio",
+    "branch":     "aosp/LA.UM.9.14.r1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/kernel-techpack-camera",
+    "target_path":  "kernel/sony/msm-5.4/kernel/techpack/camera",
+    "branch":     "aosp/LA.UM.9.14.r1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/kernel-techpack-dataipa",
+    "target_path":  "kernel/sony/msm-5.4/kernel/techpack/dataipa",
+    "branch":     "aosp/LA.UM.9.14.r1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/kernel-techpack-display-driver",
+    "target_path":  "kernel/sony/msm-5.4/kernel/techpack/display",
+    "branch":     "aosp/LA.UM.9.14.r1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/kernel-techpack-video",
+    "target_path":  "kernel/sony/msm-5.4/kernel/techpack/video",
+    "branch":     "aosp/LA.UM.9.14.r1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/kernel-techpack-sched",
+    "target_path":  "kernel/sony/msm-5.4/kernel/techpack/sched",
+    "branch":     "aosp/LA.UM.9.14.r1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/kernel-defconfig",
+    "target_path":  "kernel/sony/msm-5.4/kernel/arch/arm64/configs/sony",
+    "branch":     "aosp/LA.UM.9.14.r1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/vendor-qcom-opensource-wlan-fw-api",
+    "target_path":  "kernel/sony/msm-5.4/kernel/drivers/staging/wlan-qc/fw-api",
+    "branch":     "aosp/LA.UM.9.14.r1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/vendor-qcom-opensource-wlan-qca-wifi-host-cmn",
+    "target_path":  "kernel/sony/msm-5.4/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn",
+    "branch":     "aosp/LA.UM.9.14.r1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/vendor-qcom-opensource-wlan-qcacld-3.0",
+    "target_path":  "kernel/sony/msm-5.4/kernel/drivers/staging/wlan-qc/qcacld-3.0",
+    "branch":     "aosp/LA.UM.9.14.r1"
   },
   {
     "remote":       "github",
@@ -171,6 +249,18 @@
   },
   {
     "remote":       "github",
+    "repository":   "sonyxperiadev/device-sony-lena",
+    "target_path":  "device/sony/lena",
+    "branch":     "s-mr1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/device-sony-pdx213",
+    "target_path":  "device/sony/pdx213",
+    "branch":     "s-mr1"
+  },
+  {
+    "remote":       "github",
     "repository":   "sonyxperiadev/device-sony-edo",
     "target_path":  "device/sony/edo",
     "branch":     "s-mr1"
@@ -185,6 +275,24 @@
     "remote":       "github",
     "repository":   "sonyxperiadev/device-sony-pdx206",
     "target_path":  "device/sony/pdx206",
+    "branch":     "s-mr1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/device-sony-sagami",
+    "target_path":  "device/sony/sagami",
+    "branch":     "s-mr1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/device-sony-pdx214",
+    "target_path":  "device/sony/pdx214",
+    "branch":     "s-mr1"
+  },
+    {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/device-sony-pdx215",
+    "target_path":  "device/sony/pdx215",
     "branch":     "s-mr1"
   },
   {
@@ -269,32 +377,32 @@
   },
   {
     "remote":       "github",
-    "repository":   "sonyxperiadev/hardware-qcom-display",
-    "target_path":  "vendor/qcom/opensource/display/sm8150",
-    "branch":     "aosp/LA.UM.8.1.r1_r-mr1"
-  },
-  {
-    "remote":       "github",
-    "repository":   "sonyxperiadev/hardware-qcom-display",
+    "repository":   "sonyxperiadev/vendor-qcom-opensource-display",
     "target_path":  "vendor/qcom/opensource/display/sm8250",
     "branch":     "aosp/LA.UM.9.12.r1"
   },
   {
     "remote":       "github",
+    "repository":   "sonyxperiadev/vendor-qcom-opensource-display",
+    "target_path":  "vendor/qcom/opensource/display/sm8350",
+    "branch":     "aosp/LA.UM.9.14.r1"
+  },
+  {
+    "remote":       "github",
     "repository":   "sonyxperiadev/hardware-qcom-gps",
     "target_path":  "vendor/qcom/opensource/gps",
+    "branch":     "aosp/LA.UM.9.14.r1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/vendor-qcom-opensource-media",
+    "target_path":  "vendor/qcom/opensource/media/sm8250",
     "branch":     "aosp/LA.UM.9.12.r1"
   },
   {
     "remote":       "github",
-    "repository":   "sonyxperiadev/hardware-qcom-media-sm8150",
-    "target_path":  "vendor/qcom/opensource/media/sm8150",
-    "branch":     "aosp/LA.UM.8.1.r1"
-  },
-  {
-    "remote":       "github",
-    "repository":   "sonyxperiadev/hardware-qcom-media-sm8150",
-    "target_path":  "vendor/qcom/opensource/media/sm8250",
+    "repository":   "sonyxperiadev/vendor-qcom-opensource-media",
+    "target_path":  "vendor/qcom/opensource/media/sm8350",
     "branch":     "aosp/LA.UM.9.12.r1"
   },
   {
@@ -323,6 +431,18 @@
   },
   {
     "remote":       "github",
+    "repository":   "sonyxperiadev/vendor-qcom-opensource-bootctrl",
+    "target_path":  "vendor/qcom/opensource/bootctrl",
+    "branch":     "aosp/LA.UM.9.14.r1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "sonyxperiadev/vendor-qcom-opensource-usb",
+    "target_path":  "vendor/qcom/opensource/usb",
+    "branch":     "aosp/LA.UM.9.14.r1"
+  },
+  {
+    "remote":       "github",
     "repository":   "sonyxperiadev/vendor-qcom-opensource-core-utils",
     "target_path":  "vendor/qcom/opensource/core-utils",
     "branch":     "aosp/LA.UM.8.1.r1"
@@ -335,14 +455,21 @@
   },
   {
     "remote":       "github",
-    "repository":   "sonyxperiadev/vendor-qcom-opensource-location",
-    "target_path":  "vendor/qcom/opensource/location",
-    "branch":     "aosp/LA.UM.9.12.r1"
+    "repository":   "sonyxperiadev/vendor-qcom-opensource-telephony",
+    "target_path":  "vendor/qcom/opensource/telephony",
+    "branch":     "aosp/LA.UM.9.14.r1"
   },
   {
-    "repository":   "device_sony_ipacfg-mgr",
-    "target_path":  "vendor/qcom/opensource/data/ipacfg-mgr/sdm845",
-    "branch":     "dot12"
+    "remote":       "github",
+    "repository":   "sonyxperiadev/vendor-qcom-opensource-location",
+    "target_path":  "vendor/qcom/opensource/location",
+    "branch":     "aosp/LA.UM.9.14.r1"
+  },
+  {
+  	"remote":		"github",
+    "repository":   "sonyxperiadev/vendor-qcom-opensource-data-ipa-cfg-mgr",
+    "target_path":  "vendor/qcom/opensource/data/ipacfg-mgr",
+    "branch":     "aosp/LA.UM.9.14.r1"
   },
   {
     "remote":       "github",
@@ -353,32 +480,32 @@
   {
     "remote":       "github",
     "repository":   "sonyxperiadev/vendor-qcom-opensource-commonsys-intf-display",
-    "target_path":  "vendor/qcom/opensource/display-commonsys-intf/sm8150",
-    "branch":     "aosp/LA.UM.8.1.r1_r-mr1"
-  },
-  {
-    "remote":       "github",
-    "repository":   "sonyxperiadev/vendor-qcom-opensource-commonsys-intf-display",
     "target_path":  "vendor/qcom/opensource/display-commonsys-intf/sm8250",
     "branch":     "aosp/LA.UM.9.12.r1"
   },
   {
     "remote":       "github",
+    "repository":   "sonyxperiadev/vendor-qcom-opensource-commonsys-intf-display",
+    "target_path":  "vendor/qcom/opensource/display-commonsys-intf/sm8350",
+    "branch":     "aosp/LA.UM.9.14.r1"
+  },
+  {
+    "remote":       "github",
     "repository":   "sonyxperiadev/vendor-qcom-opensource-audio-hal-st-hal",
     "target_path":  "vendor/qcom/opensource/audio-hal/st-hal",
-    "branch":     "aosp/LA.UM.9.12.r1"
+    "branch":     "aosp/LA.UM.9.14.r1"
   },
   {
     "remote":       "github",
     "repository":   "sonyxperiadev/vendor-qcom-opensource-audio-hal-primary-hal",
     "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
-    "branch":     "aosp/LA.UM.9.12.r1"
+    "branch":     "aosp/LA.UM.9.14.r1"
   },
   {
     "remote":       "github",
     "repository":   "sonyxperiadev/vendor-qcom-opensource-time-services",
     "target_path":  "vendor/qcom/opensource/time-services",
-    "branch":     "aosp/LA.UM.9.12.r1"
+    "branch":     "aosp/LA.UM.9.14.r1"
   },
   {
     "remote":       "github",
